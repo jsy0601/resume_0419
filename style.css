@@ -14,26 +14,56 @@ footer {
     font-size: 12px;
     padding: 20px;
 }
+.resume {
+    width: 1100px;
+    margin: 40px auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0, 0,0, 0.1);
+}
 .mainbox {
     width: 610px;
     padding: 30px;
-    margin: 30px;
+    margin: 0 300px;
+}
+.title-box{
+    float: left;
+    width: 200px;
+    height: 1455px;
+    padding: 30px;
+    margin-left: 50px;
     margin: 0 auto;
-    /* margin-right: auto;
-    margin-left: auto; */
-    bottom: 1px solid #ebebeb;
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0, 0.1);
-
+    background-color: #ebebeb;
 }
 .name-text {
     font-size: 16px;
     color: #7c7c7c;
     font-weight: bold;
+    text-align: center;
+}
+.contact {
+    margin-top: 100px;
+}
+.contact-text {
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+.contact-info {
+    text-align: center;
+    color: #7c7c7c;
+}
+.profile-img{
+    margin: 0 50px 20px;
 }
 h1 {
+    clear: both;
     font-weight: bold;
     font-size: 36px;
-    font-style: italic;
+    text-align: center;
+    text-shadow: 1px 1px 3px #7c7c7c;
+}
+h3 {
+    text-align: center;
 }
 h2 {
     font-size: 20px;
@@ -74,17 +104,13 @@ section {
     color: #282828;
     padding-left: 16px;
 }
-.title-box {
-    text-align: right;
-}
-.profile-img {
-    float: left;
-    display: inline;
-}
 .sns-wrap {
-    text-align: right;
+    text-align: center;
 }
 .sns-img {
-    width: 12px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
+}
+p {
+    font-size: 12px;
 }
